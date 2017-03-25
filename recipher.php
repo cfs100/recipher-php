@@ -39,7 +39,7 @@ class recipher
 			static::setKey(static::__random());
 		}
 
-		return static::$__key;
+		return self::$__key;
 	}
 
 	/**
