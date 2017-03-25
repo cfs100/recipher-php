@@ -1,9 +1,9 @@
 {
-	"name": "cfs100/recipher",
+	"name": "cfs100/recipher-php",
 	"type": "library",
 	"description": "Basic text encryption.",
 	"keywords": ["php", "encryption"],
-	"homepage": "https://github.com/cfs100/recipher",
+	"homepage": "https://github.com/cfs100/recipher-php",
 	"license": "MIT",
 	"authors": [
 		{
