@@ -1,0 +1,22 @@
+{
+	"name": "cfs100/recipher",
+	"type": "library",
+	"description": "Basic text encryption.",
+	"keywords": ["php", "encryption"],
+	"homepage": "https://github.com/cfs100/recipher",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Caio Ferreira Silva",
+			"email": "caio@ferreirasilva.com.br"
+		}
+	],
+	"require": {
+		"php": ">=7.0"
+	},
+	"autoload": {
+		"classmap": ["recipher.php"]
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true
+}
