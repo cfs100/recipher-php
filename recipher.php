@@ -50,7 +50,11 @@ class recipher
 	 */
 	private static function __random()
 	{
-		return bin2hex(random_bytes(rand(32, 64)));
+		if (function_exists('random_bytes')) {
+			return bin2hex(random_bytes(rand(32, 64)));
+		} else {
+			return sha1(uniqid());
+		}
 	}
 
 	/**
