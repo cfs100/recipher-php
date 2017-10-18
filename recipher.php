@@ -82,9 +82,9 @@ class recipher
 	 * @param string $string
 	 * @return string
 	 */
-	public static function encode($string)
+	public static function encode($string, $forceKey = null)
 	{
-		return base64_encode(static::process($string));
+		return base64_encode(static::process($string, $forceKey));
 	}
 
 	/**
